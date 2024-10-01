@@ -5,33 +5,40 @@ body {
     padding: 0;
     background: #f4f4f4;
   }
-  
+
   header {
     background: #333;
     color: #fff;
     padding: 10px 20px;
     text-align: center;
   }
-  
+
   nav ul {
     list-style: none;
     padding: 0;
+    display: flex; /* horizontal alignment */
+    justify-content: center; /* Center the navigation items */
   }
-  
+
   nav ul li {
-    display: inline;
+    padding: 5px 10px;
     margin: 0 10px;
   }
-  
+
   nav ul li a {
     color: #fff;
     text-decoration: none;
   }
-  
+
   main {
     padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto; /* Center the main content */
+    background: #fff; /* White background for the content area */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
-  
+
   footer {
     background: #333;
     color: #fff;
