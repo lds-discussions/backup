@@ -9,7 +9,7 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 10px;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 5px 10px;
+  padding: 5px 10px 0px;
   margin: 0 10px;
   position: relative; /* Allows the submenu to be positioned relative to its parent */
 }
@@ -52,12 +52,12 @@ nav ul li:hover .submenu {
 nav ul .submenu li {
   display: block; /* Display items as block elements */
   text-align: left;  /* Align the text to the left */
-  padding: 5px;
+  padding: 0;
 }
 
 nav ul .submenu li a {
   color: #fff; /* Text color */
-  padding: 10px;
+  padding: 1px;
   display: block;
   width: auto; /* Full width for the submenu items */
   white-space: nowrap; /* Prevent text wrapping */
