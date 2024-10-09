@@ -123,8 +123,22 @@ figcaption {
 .image-style-2 {
   margin: 0px auto;
   max-width: 500px;
-  height: auto;/* Fixed height */
+  height: auto;
   display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.image-style-3 {
+  height: 300px; /* Set a fixed height to normalize the images' sizes */
+  width: auto; /* Allow width to adjust based on the image's aspect ratio */
+  max-width: 48%; /* Prevent images from exceeding half the container's width */
 }
 
 blockquote {
