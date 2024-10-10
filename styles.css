@@ -141,6 +141,13 @@ figcaption {
   max-width: 48%; /* Prevent images from exceeding half the container's width */
 }
 
+.image-style-4 {
+  margin: 0px auto;
+  max-width: 280px;
+  height: auto;
+  display: block;
+}
+
 blockquote {
   font-style: italic; /* Italicize the quote */
   background: #f9f9f9; /* Light background for emphasis */
@@ -149,6 +156,16 @@ blockquote {
   margin: 20px 40px; /* Margin around the blockquote */
   text-align: justify; /* Justify the quote text */
   line-height: 1.6; /* Line height for better readability */
+}
+
+a {
+  color: #45c3dc; /* same as lds .org */
+  text-decoration: none; /* removes the underline */
+}
+
+a:hover {
+  color: #0056b3; /* Darker shade on hover (optional) */
+  text-decoration: underline; /*adds underline on hover */
 }
 
 footer {
