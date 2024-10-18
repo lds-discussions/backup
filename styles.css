@@ -113,16 +113,23 @@ figcaption {
   font-size: 14px;
 }
 
-.image-style-1 {
+.image-style-big {
   margin: 20px auto;
   max-width: 700px;
   height: auto;
   display: block;
 }
 
-.image-style-2 {
+.image-style-medium {
   margin: 0px auto;
   max-width: 500px;
+  height: auto;
+  display: block;
+}
+
+.image-style-small {
+  margin: 0px auto;
+  max-width: 280px;
   height: auto;
   display: block;
 }
@@ -135,37 +142,44 @@ figcaption {
   margin: 0 auto;
 }
 
-.image-style-3 {
-  height: 300px; /* Set a fixed height to normalize the images' sizes */
-  width: auto; /* Allow width to adjust based on the image's aspect ratio */
-  max-width: 48%; /* Prevent images from exceeding half the container's width */
-}
-
-.image-style-4 {
-  margin: 0px auto;
-  max-width: 280px;
-  height: auto;
-  display: block;
+.image-style-fixed {
+  height: 300px;
+  /* Set a fixed height to normalize the images' sizes */
+  width: auto;
+  /* Allow width to adjust based on the image's aspect ratio */
+  max-width: 48%;
+  /* Prevent images from exceeding half the container's width */
 }
 
 blockquote {
-  font-style: italic; /* Italicize the quote */
-  background: #f9f9f9; /* Light background for emphasis */
-  border-left: 5px solid #ccc; /* Add left border for visual separation */
-  padding: 15px 20px; /* Add padding inside the blockquote */
-  margin: 20px 40px; /* Margin around the blockquote */
-  text-align: justify; /* Justify the quote text */
-  line-height: 1.6; /* Line height for better readability */
+  font-style: italic;
+  /* Italicize the quote */
+  background: #f9f9f9;
+  /* Light background for emphasis */
+  border-left: 5px solid #ccc;
+  /* Add left border for visual separation */
+  padding: 15px 20px;
+  /* Add padding inside the blockquote */
+  margin: 20px 40px;
+  /* Margin around the blockquote */
+  text-align: justify;
+  /* Justify the quote text */
+  line-height: 1.6;
+  /* Line height for better readability */
 }
 
 a {
-  color: #45c3dc; /* same as lds .org */
-  text-decoration: none; /* removes the underline */
+  color: #45c3dc;
+  /* same as lds .org */
+  text-decoration: none;
+  /* removes the underline */
 }
 
 a:hover {
-  color: #0056b3; /* Darker shade on hover (optional) */
-  text-decoration: underline; /*adds underline on hover */
+  color: #0056b3;
+  /* Darker shade on hover (optional) */
+  text-decoration: underline;
+  /*adds underline on hover */
 }
 
 footer {
@@ -176,4 +190,8 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
+}
+
+.essay-text {
+  color: #0000CD;
 }
