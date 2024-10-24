@@ -16,19 +16,11 @@
 
     <h1>404 - Page Not Found</h1>
     <p>The page you're looking for doesn't exist.</p>
-    <p><a href="/index.html">Return to Homepage</a></p>
+    <p><a href="/backup/">Return to Homepage</a></p>
 
     <main>
 
     </main>
-    <!-- js to include the menu -->
-    <script>
-        fetch('../menu.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar').innerHTML = data;
-            });
-    </script>
 </body>
 
 </html>
