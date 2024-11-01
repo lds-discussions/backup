@@ -6,8 +6,7 @@ historical insights and perspectives on Mormonism remain accessible.
 
 ## About the Content
 The original site, LDS Discussions, explores various topics of Mormonism from a historical
- perspective, using mostly LDS sources. The content was created by former members of the LDS 
-Church and incorporates both critical and apologetic viewpoints. The goal is to provide a 
+ perspective, using mostly LDS sources. The content incorporates both critical and apologetic viewpoints. The goal is to provide a 
 comprehensive view of controversial topics using sourced references, making it clear that 
 this is not "anti-Mormon" content, but rather a documentation of history as understood by 
 the authors. Additionally, the site includes annotated versions of the official LDS Church 
